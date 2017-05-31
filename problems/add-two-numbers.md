@@ -54,31 +54,22 @@ public class Solution {
 
 # 數字相加解法
 
-An alternative is that we can  balala
+An alternative like [沙札罕](http://www.jianshu.com/p/5d8f13225adf) said, we can convert the ListNodes to numeric values then sum up, and convert the result to ListNode. Note that Python can handle numbers as big as your memory will allow, but Java must consider the ranges of types. For example, the class ListNode here with the `int` val, given the two lists \[9\] and \[1,9,9,9,9,9,9,9,9,9\], then expected answer is \[0,0,0,0,0,0,0,0,0,0,1\] but will get wrong answer \[8,0,4,5,6,0,0,1,4,1\].
 
 ```java
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0);
-        ListNode current = dummy;
-        int carry = 0;
-        while (l1 != null || l2 != null || carry != 0) {
-            int sum = carry;
-            if (l1 != null) {
-                sum += l1.val;
-                l1 = l1.next;
-            }
-            if (l2 != null) {
-                sum += l2.val;
-                l2 = l2.next;
-            }
-            // carry digit != 0 if sum > 9, will be added in next round with val of l1 and l2
-            carry = sum / 10;
-            sum = sum % 10;
-            current.next = new ListNode(sum);
-            current = current.next;
-        }
-        return dummy.next;
+        return intToListNode(listnodeToInt(l1) + listnodeToInt(l2));
+    }
+    
+    private int listnodeToInt(ListNode l) {
+        return (l != null) ? l.val + 10 * listnodeToInt(l.next) : 0;
+    }
+
+    private ListNode intToListNode(int val) {
+        ListNode l = new ListNode(val % 10);
+        if (val > 9) l.next = intToListNode(val / 10);
+        return l;
     }
 }
 ```
