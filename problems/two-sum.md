@@ -25,15 +25,15 @@ public class Solution {
         int[] result = new int[2];
 
         for (int i = 0; i < nums.length; i++) {
-            if (map.containsKey(nums[i])) {
+            if (map.containsKey(target - nums[i])) {
                 // let v = nums[i] and x = target - v,
                 // if map contains x, then x must be visited before, target = index(x) + index(v)
-                int index = map.get(nums[i]);
-                result[0] = index ;
+                result[0] = map.get(target - nums[i]);
                 result[1] = i;
                 break;
             } else {
-                map.put(target - nums[i], i);
+                // store the visited number and corresponding index in nums
+                map.put(nums[i], i);
             }
         }
 
