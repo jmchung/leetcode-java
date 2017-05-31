@@ -6,6 +6,10 @@
 
   * [1. Two Sum](/problems/two-sum.md)
 
+* Math
+
+  * [7. Reverse Integer](/problems/reverse-integer.md)
+
 * LinkedList
 
   * [2. Add Two Numbers](/problems/add-two-numbers.md)

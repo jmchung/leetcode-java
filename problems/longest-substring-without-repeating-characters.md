@@ -8,9 +8,11 @@ Given `"abcabcbb"` , the answer is `"abc"`, which the length is 3.
 
 Given `"bbbbb"`, the answer is `"b"`, with the length of 1.
 
-Given `"pwwkew"`, the answer is `"wke"`, with the length of 3. Note that the answer must be a **substring**, `"pwke"` is a _subsequence_ and not a substring.
+Given `"pwwkew"`, the answer is `"wke"`, with the length of 3.
 
-# Thinking
+Note that the answer must be a **substring**, `"pwke"` is a _subsequence_ and not a substring.
+
+# Thought
 
 Two variables, `start` and `end`, representing respectively the start-index and end-index of the substring. Then increase the end value to collect the substring until repeating character occurs. Pay attention when moving the `start` pointer forward especially when `s.charAt(start) != s.charAt(end)`.
 
@@ -22,10 +24,11 @@ Two variables, `start` and `end`, representing respectively the start-index and 
     +-------------------------------+
                   ↑ end = 3
 
-    s.charAt(start) = s.charAt(end) = `a`, the following candidate of substring will be "bca"
+    s.charAt(start) = s.charAt(end) = `a`, the substring will be "bca"
 
 
-    consider the following example, if s.charAt(start) != s.charAt(end), we need to skip the repeating chars, 
+    consider the following example, if s.charAt(start) != s.charAt(end), 
+    we need to skip the repeating chars, 
 
       ↓ start = 0
     +-------------------------------+
@@ -36,7 +39,7 @@ Two variables, `start` and `end`, representing respectively the start-index and 
     if we follow the above case to get next candidate, it will be "bcc". 
     this is wrong because it contains the repeating characters.
     we should keep moving until the two chars are the same, i.e., start = 2, end = 3.
-    Since we always start += 1 before cut the substring, the substring will be substring(3:4), "c".  
+    Since we always start += 1 before cut the substring, it will be substring(3:4), "c".  
 
 # Solution
 
