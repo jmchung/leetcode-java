@@ -6,7 +6,7 @@ You are given two **non-empty **linked lists representing two non-negative integ
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
-**Input:  **\(2 -&gt; 4 -&gt; 3\) + \(5 -&gt; 6 -&gt; 4\)  
+**Input:   **\(2 -&gt; 4 -&gt; 3\) + \(5 -&gt; 6 -&gt; 4\)  
 **Output: **7 -&gt; 0 -&gt; 8
 
 # 解題
@@ -61,7 +61,7 @@ public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         return intToListNode(listnodeToInt(l1) + listnodeToInt(l2));
     }
-    
+
     private int listnodeToInt(ListNode l) {
         return (l != null) ? l.val + 10 * listnodeToInt(l.next) : 0;
     }
