@@ -12,9 +12,9 @@ Given `"pwwkew"`, the answer is `"wke"`, with the length of 3. Note that the ans
 
 # Thinking
 
-Two variables, `start` and `end`, representing respectively the start-index and end-index of the substring. Then increase the end value to collect the substring until repeating character occurs. Pay attention when moving the `start` pointer forward especially when `s[start] != s[end]`.
+Two variables, `start` and `end`, representing respectively the start-index and end-index of the substring. Then increase the end value to collect the substring until repeating character occurs. Pay attention when moving the `start` pointer forward especially when `s.charAt(start) != s.charAt(end)`.
 
-    if s[start] == s[end], just moving the start to start +1
+    if s.charAt(start) == s.charAt(end), just moving the start to start +1
 
       ↓ start = 0
     +-------------------------------+
@@ -22,10 +22,10 @@ Two variables, `start` and `end`, representing respectively the start-index and 
     +-------------------------------+
                   ↑ end = 3
 
-    s[start] = s[end] = `a`, the following candidate of substring will be "bca"
+    s.charAt(start) = s.charAt(end) = `a`, the following candidate of substring will be "bca"
 
 
-    consider the following example, if s[start] != s[end], we need to skip the repeating chars, 
+    consider the following example, if s.charAt(start) != s.charAt(end), we need to skip the repeating chars, 
 
       ↓ start = 0
     +-------------------------------+
