@@ -26,6 +26,8 @@ public class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
+                // let v = nums[i] and x = target - v,
+                // if map contains x, then x must be visited before, target = index(x) + index(v)
                 int index = map.get(nums[i]);
                 result[0] = index ;
                 result[1] = i;
