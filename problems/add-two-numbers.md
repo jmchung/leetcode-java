@@ -61,11 +61,11 @@ public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         return intToListNode(listnodeToInt(l1) + listnodeToInt(l2));
     }
-
+    // e.g., (2 -> 4 -> 3) => 342
     private int listnodeToInt(ListNode l) {
         return (l != null) ? l.val + 10 * listnodeToInt(l.next) : 0;
     }
-
+    // 807 => (7 -> 0 -> 8)
     private ListNode intToListNode(int val) {
         ListNode l = new ListNode(val % 10);
         if (val > 9) l.next = intToListNode(val / 10);
