@@ -4,7 +4,7 @@
 
 # LinkedList
 
-* 2. Add Two Numbers
+* * Add Two Numbers
 
 
 
