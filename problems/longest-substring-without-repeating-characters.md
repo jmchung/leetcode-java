@@ -25,7 +25,6 @@ Two variables, `start` and `end`, representing respectively the start-index and 
     s[start] = s[end] = `a`, the following candidate of substring will be "bca"
 
 
-
     consider the following example, if s[start] != s[end], we need to skip the repeating chars, 
 
       ↓ start = 0
@@ -36,7 +35,8 @@ Two variables, `start` and `end`, representing respectively the start-index and 
 
     if we follow the above case to get next candidate, it will be "bcc". 
     this is wrong because it contains the repeating characters.
-    we should keep moving until the two chars are the same.
+    we should keep moving until the two chars are the same, i.e., start = 2, end = 3.
+    Since we always start += 1 before cut the substring, the substring will be substring(3:4), "c".  
 
 # Solution
 
