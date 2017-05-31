@@ -23,7 +23,11 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // use a dummy node that points to the head can help reduce many of the checks,
-        // and current acting as a cursor to a singly-linked list.
+        // and current acting as a cursor to the returned singly-linked list.
+        // +-------+
+        // | dummy |--->
+        // +-------+
+        //         ^ result is the 
         ListNode head = new ListNode(0);
         ListNode current = head;
         int carry = 0;
