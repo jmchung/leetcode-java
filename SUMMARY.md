@@ -17,6 +17,8 @@
 * String
 
   * [3. Longest Substring Without Repeating Characters](/problems/longest-substring-without-repeating-characters.md)
+  * [13. Roman to Integer](/problems/roman-to-integer.md)
+  * [14. Longest Common Prefix](/problems/longest-common-prefix.md)
 
 
 
