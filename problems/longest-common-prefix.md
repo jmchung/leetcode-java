@@ -6,6 +6,14 @@ Write a function to find the longest common prefix string amongst an array of st
 
 e.g., given an array of strings `["abcd", "abc", "abcdb"]` and the LCP is `"abc"`.
 
+```
++---------------+     +-----------+     +-------------------+
+| a | b | c | d |     | a | b | c |     | a | b | c | d | b | ...
++---------------+     +-----------+     +-------------------+
+  |_____________________^
+  |_______________________________________^
+```
+
 Pick the first element as base in outer loop, then iterate the remaining elements, and compare them with base in character.
 
 Return the `strs[0]` to avoid getting wrong answer when given an array `["a"]`.
