@@ -8,7 +8,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 
 The first thing we should know is the [roman numeral](https://en.wikipedia.org/wiki/Roman_numerals) \(I don't XD\), and convert the Character and corresponding Integer to a map. Normally, we can convert the roman numeral directly into integer, e.g., `X -> 10`, `V -> 5`.
 
-But in some cases like `IX -> 10 - 1`, `IV -> 5 - 1` cannot sum up intuitively.
+But in some cases like `IX -> 10 - 1 = -1 + 10`, `IV -> 5 - 1 = -1 + 5` cannot sum up intuitively.
 
 The idea is that we need to check the next character to determine the addition or subtraction of current character with sum.
 
