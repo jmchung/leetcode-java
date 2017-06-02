@@ -73,7 +73,8 @@ public class Solution {
                 curr.next = l2;
                 l2 = l2.next;
             }
-            // moving forward to keep the val in this round, because the change occurs in curr.next opeartion
+            // moving forward to keep the val in this round, 
+            // because the change occurs in curr.next operation.
             curr = curr.next;
         }
 
