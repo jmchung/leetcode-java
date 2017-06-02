@@ -13,6 +13,7 @@
 * LinkedList
 
   * [2. Add Two Numbers](/problems/add-two-numbers.md)
+  * [21. Merge Two Sorted Lists](/problems/merge-two-sorted-lists.md)
 
 * String
 
