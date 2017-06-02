@@ -5,6 +5,7 @@
 * Array
 
   * [1. Two Sum](/problems/two-sum.md)
+  * [26. Remove Duplicates from Sorted Array](/problems/26.remove-duplicates-from-sorted-array.md)
 
 * Math
 
