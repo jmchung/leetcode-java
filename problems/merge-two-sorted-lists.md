@@ -47,7 +47,7 @@ l2 = 4 -> null                           (l2 = l2.next)
       435   437
 curr = 2  -> 4  -> null
 
-
+...
 ```
 
 # Solution
@@ -73,7 +73,7 @@ public class Solution {
                 curr.next = l2;
                 l2 = l2.next;
             }
-            // moving forward to keep the val in this round
+            // moving forward to keep the val in this round, because the change occurs in curr.next opeartion
             curr = curr.next;
         }
 
