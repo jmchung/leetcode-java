@@ -23,6 +23,7 @@
   * [13. Roman to Integer](/problems/roman-to-integer.md)
   * [14. Longest Common Prefix](/problems/longest-common-prefix.md)
   * [20. Valid Parentheses](/problems/valid-parentheses.md)
+  * [28. Implement strStr\(\)](/problems/28.implement-strstr.md)
 
 
 
