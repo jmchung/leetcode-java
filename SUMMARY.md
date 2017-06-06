@@ -14,8 +14,8 @@
 
 * LinkedList
 
-  * 1. Add Two Numbers
-  * 21. Merge Two Sorted Lists
+  * [2.Add Two Numbers](/problems/2.add-two-numbers.md)
+  * [88.Merge Two Sorted Lists](/problems/88.merge-sorted-array.md)
 
 * String
 
