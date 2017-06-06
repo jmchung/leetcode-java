@@ -14,15 +14,15 @@
 
 * LinkedList
 
-  * 2. Add Two Numbers
-  * [21. Merge Two Sorted Lists](/problems/merge-two-sorted-lists.md)
+  * 1. Add Two Numbers
+  * 21. Merge Two Sorted Lists
 
 * String
 
-  * 3. Longest Substring Without Repeating Characters
-  * 13. Roman to Integer
-  * 14. Longest Common Prefix
-  * 20. Valid Parentheses
+  * 1. Longest Substring Without Repeating Characters
+  * 1. Roman to Integer
+  * 1. Longest Common Prefix
+  * 1. Valid Parentheses
   * [28. Implement strStr\(\)](/problems/28.implement-strstr.md)
   * [38. Count and Say](/problems/38.count-and-say.md)
   * [344. Reverse String](/problems/344.reverse-string.md)
