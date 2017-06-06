@@ -25,6 +25,7 @@
   * [20. Valid Parentheses](/problems/20.valid-parentheses.md)
   * [28. Implement strStr\(\)](/problems/28.implement-strstr.md)
   * [38. Count and Say](/problems/38.count-and-say.md)
+  * [58. Length of Last Word](/problems/58.length-of-last-word.md)
   * [344. Reverse String](/problems/344.reverse-string.md)
 
 
