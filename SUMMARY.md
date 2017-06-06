@@ -19,6 +19,7 @@
   * [38. Count and Say](/problems/38.count-and-say.md)
   * [58. Length of Last Word](/problems/58.length-of-last-word.md)
   * [67. Add Binary](/problems/67.add-binary.md)
+  * [125. Valid Palindrome](/problems/125.valid-palindrome.md)
   * [344. Reverse String](/problems/344.reverse-string.md)
   * [345. Reverse Vowels of a String](/problems/345.reverse-vowels-of-a-string.md)
   * [520. Detect Capital](/problems/520.detect-capital.md)
