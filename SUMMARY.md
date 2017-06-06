@@ -10,7 +10,7 @@
 
 * Math
 
-  * [7. Reverse Integer](/problems/reverse-integer.md)
+  * 7. Reverse Integer
 
 * LinkedList
 
