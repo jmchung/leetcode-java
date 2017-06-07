@@ -25,6 +25,7 @@
   * [383. Ransom Note](/problems/383.ransom-note.md)
   * [434. Number of Segments in a String](/problems/434.number-of-segments-in-a-string.md)
   * [520. Detect Capital](/problems/520.detect-capital.md)
+  * [521. Longest Uncommon Subsequence I](/problems/521.longest-uncommon-subsequence-I.md)
   * [541. Reverse String II](/problems/541.reverse-string-II.md)
   * [557. Reverse Words in a String III](/problems/557.reverse-words-in-a-string-III.md)
 
