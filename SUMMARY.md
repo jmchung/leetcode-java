@@ -22,6 +22,7 @@
   * [125. Valid Palindrome](/problems/125.valid-palindrome.md)
   * [344. Reverse String](/problems/344.reverse-string.md)
   * [345. Reverse Vowels of a String](/problems/345.reverse-vowels-of-a-string.md)
+  * [383. Ransom Note](/problems/383.ransom-note.md)
   * [520. Detect Capital](/problems/520.detect-capital.md)
 
 
