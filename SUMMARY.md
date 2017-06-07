@@ -23,6 +23,7 @@
   * [344. Reverse String](/problems/344.reverse-string.md)
   * [345. Reverse Vowels of a String](/problems/345.reverse-vowels-of-a-string.md)
   * [383. Ransom Note](/problems/383.ransom-note.md)
+  * [434. Number of Segments in a String](/problems/434.number-of-segments-in-a-string.md)
   * [520. Detect Capital](/problems/520.detect-capital.md)
   * [541. Reverse String II](/problems/541.reverse-string-II.md)
   * [557. Reverse Words in a String III](/problems/557.reverse-words-in-a-string-III.md)
