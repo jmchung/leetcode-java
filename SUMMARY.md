@@ -30,6 +30,8 @@
   * [541. Reverse String II](/problems/541.reverse-string-II.md)
   * [551. Student Attendance Record I](/problems/551.student-attendance-record-I.md)
   * [557. Reverse Words in a String III](/problems/557.reverse-words-in-a-string-III.md)
+* Tree
+  * [606. Construct String from Binary Tree](/problems/606.construct-string-from-binary-tree.md)
 
 
 
