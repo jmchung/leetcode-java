@@ -24,6 +24,7 @@
   * [345. Reverse Vowels of a String](/problems/345.reverse-vowels-of-a-string.md)
   * [383. Ransom Note](/problems/383.ransom-note.md)
   * [434. Number of Segments in a String](/problems/434.number-of-segments-in-a-string.md)
+  * [459. Repeated Substring Pattern](/problems/459.repeated-substring-pattern.md)
   * [520. Detect Capital](/problems/520.detect-capital.md)
   * [521. Longest Uncommon Subsequence I](/problems/521.longest-uncommon-subsequence-I.md)
   * [541. Reverse String II](/problems/541.reverse-string-II.md)
