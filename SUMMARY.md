@@ -4,6 +4,7 @@
 * Array
   * [1. Two Sum](/problems/1.two-sum.md)
   * [26. Remove Duplicates from Sorted Array](/problems/26.remove-duplicates-from-sorted-array.md)
+  * [27. Remove Element](/problems/27.remove-element.md)
   * [88. Merge Sorted Array](/problems/88.merge-sorted-array.md)
 * Bit Manipulation
   * [268. Missing Number](/problems/268.missing-number.md)
