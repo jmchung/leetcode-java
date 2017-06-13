@@ -6,6 +6,7 @@
   * [26. Remove Duplicates from Sorted Array](/problems/26.remove-duplicates-from-sorted-array.md)
   * [27. Remove Element](/problems/27.remove-element.md)
   * [88. Merge Sorted Array](/problems/88.merge-sorted-array.md)
+  * [121. Best Time to Buy and Sell Stock](/problems/121.best-time-to-buy-and-sell-stock.md)
   * [219. Contains Duplicate II](/problems/219.contains-duplicate-II.md)
   * [561. Array Partition I](/problems/561.array-partition-I.md)
   * [605. Can Place Flowers](/problems/605.can-place-flowers.md)
