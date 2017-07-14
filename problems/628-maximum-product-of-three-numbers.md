@@ -23,7 +23,15 @@ Output: 24
 
 # Thoughts
 
+We have to consider the negative numbers to get the max product. If the elements in nums are all positive, the rightmost three numbers is the answer. If the nums contains the negative numbers, the max product may be the leftmost two numbers and rightmose one number.
 
+```
+nums = [-1, -5, -100, 8, 2, 5, 9, 1, 7, 3, 4]
+
+↓ (sort)
+
+nums = [-100, -5, -1, 1, 2, 3, 4, 5, 7, 8, 9]
+```
 
 # Solution
 
