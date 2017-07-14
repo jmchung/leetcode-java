@@ -6,7 +6,7 @@ Given two sorted integer arrays _nums1_ and _nums2_, merge _nums2_ into _nums1_ 
 
 You may assume that _nums1_ has enough space \(size that is greater or equal to _m_ + _n_\) to hold additional elements from _nums2_. The number of elements initialized in _nums1_ and _nums2_ are _m_ and _n_ respectively.
 
-# Thought
+# Thoughts
 
 The following example illustrates the solution proposed by [Andy](https://github.com/leetcoders/LeetCode-Java/blob/master/MergeSortedArray.java).
 
@@ -14,7 +14,7 @@ The following example illustrates the solution proposed by [Andy](https://github
 
 \(2\) identify the last position of space, `x = m + n - 1 = 4`.
 
-\(3\) compare `nums1[i]` with `nums2[j]` to determine the proper location in **`nums1`**. \(copy the value\)
+\(3\) compare `nums1[i]` with `nums2[j]` to determine the proper location in `nums1`. \(copy the value\)
 
 the main idea like he said, **from back to forth**.
 

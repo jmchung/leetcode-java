@@ -9,7 +9,7 @@ Given input array _nums_=`[1,1,2]`,
 
 Your function should return length =`2`, with the first two elements of _nums_ being`1`and`2`respectively. It doesn't matter what you leave beyond the new length.
 
-# Thought
+# Thoughts
 
 Skip to check the 1st element by `i == 0` and adding one to `idx`. Next compare current element with previous one in each iteration, `idx` incrementing by 1 and update the `nums[i]` with `nums[idx]` if two elements are different.
 

@@ -8,7 +8,6 @@ Given an array of **2n **integers, your task is to group these integers into**n*
 Input: [1,4,3,2]
 Output: 4
 Explanation: n is 2, and the maximum sum of pairs is 4 = min(1, 2) + min(3, 4).
-
 ```
 
 **Note:**
@@ -16,9 +15,9 @@ Explanation: n is 2, and the maximum sum of pairs is 4 = min(1, 2) + min(3, 4).
 1. **n **is a positive integer, which is in the range of \[1, 10000\].
 2. All the integers in the array will be in the range of \[-10000, 10000\].
 
-# Thought
+# Thoughts
 
-> The algorithm is first sort the input array and then the sum of 1st, 3rd, 5th..., is the answer. 
+> The algorithm is first sort the input array and then the sum of 1st, 3rd, 5th..., is the answer.
 >
 > > [Java Solution, Sorting. And rough proof of algorithm](https://discuss.leetcode.com/topic/87206/java-solution-sorting-and-rough-proof-of-algorithm) by [shawngao](https://discuss.leetcode.com/user/shawngao)
 
