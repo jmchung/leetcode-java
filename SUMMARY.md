@@ -12,6 +12,7 @@
   * [283 Move Zeroes](/problems/283-move-zeroes.md)
   * [561 Array Partition I](/problems/561-array-partition-I.md)
   * [605 Can Place Flowers](/problems/605-can-place-flowers.md)
+  * [628 Maximum Product of Three Numbers](/problems/628-maximum-product-of-three-numbers.md)
 * Bit Manipulation
   * [268. Missing Number](/problems/268.missing-number.md)
 * Math
