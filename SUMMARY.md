@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Array](array.md)
+* Array
   * [001 Two Sum](/problems/001-two-sum.md)
   * [026 Remove Duplicates from Sorted Array](/problems/026-remove-duplicates-from-sorted-array.md)
   * [027 Remove Element](/problems/027-remove-element.md)
