@@ -15,11 +15,11 @@ You may assume that each input would have _exactly_ one solution and you may not
 Similar to the [Two Sum](/problems/001-two-sum.md), we still can use HashMap to store the visited numbers to find the target number. But if the given array has been sorted, we can simply employ two pointers to scan the array from both sides to middle.
 
 ```
-    i →
-+---------------------------------+
-|   2   |   7   |   11   |   15   |
-+---------------------------------+
-                            ← j
+   i →
++-------------------------+
+|  2  |  7  |  11  |  15  |
++-------------------------+
+                    ← j
 ```
 
 # Solution
