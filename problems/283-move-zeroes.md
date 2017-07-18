@@ -14,11 +14,11 @@ For example, given`nums = [0, 1, 0, 3, 12]`, after calling your function,`nums`s
 Again, use two indicators, one is the index in loop, the other represents zero number. Then swap the values when meet the non-zero number \(because we want to move all 0's to the end\), and update the zero-idx.
 
 ```asciidoc
-  ↓ for-loop-idx
-+--------------------+
-| 0 | 1 | 0 | 3 | 12 |
-+--------------------+
-  ^ z-idx
+   ↓ for-loop-idx
++------------------------------+
+|  0  |  1  |  0  |  3  |  12  |
++------------------------------+
+   ^ z-idx
 ```
 
 # Solution
