@@ -7,6 +7,7 @@
   * [027 Remove Element](/problems/027-remove-element.md)
   * [088 Merge Sorted Array](/problems/088-merge-sorted-array.md)
   * [121 Best Time to Buy and Sell Stock](/problems/121-best-time-to-buy-and-sell-stock.md)
+  * [167. Two Sum II - Input array is sorted](/problems/167-two-sum-II-input-array-is-sorted.md)
   * [189 Rotate Array](/problems/189-rotate-array.md)
   * [219 Contains Duplicate II](/problems/219-contains-duplicate-II.md)
   * [283 Move Zeroes](/problems/283-move-zeroes.md)
